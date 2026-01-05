@@ -6,7 +6,7 @@ const notion = new Client({
   auth: 'NOTION_TOKEN', // 발급받은 시크릿 토큰
 });
 
-const databaseId = 'DATABASE_ID'; // 데이터베이스 ID
+const databaseId = 'PAGE_ID'; // 데이터베이스 ID
 
 async function getDatabaseData() {
   try {
